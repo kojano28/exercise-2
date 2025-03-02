@@ -51,9 +51,11 @@ For example, to run the planner with the breadth-first algorithm:
 ```
 python3 plan.py -s bfs examples/blocks-world-domain.pddl examples/blocks-world-problem.pddl
 ```
-Or to run the planner with the A* algorithm that you implemented in Task 2:
+Or to run the planner with the A* algorithm that you implemented in Task 2 or if negations use the example:
 ```
 python3 plan.py -s astar t1-your-domain.pddl t1-your-problem.pddl
+
+python3 plan.py -s astar examples/blocks-world-domain.pddl examples/blocks-world-problem.pddl
 ```
 
 ## Task 2
